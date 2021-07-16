@@ -1,0 +1,20 @@
+{
+    "Tarefas": [
+      {
+        "Servico": "ProducRegistration",        
+        "Habilitado": true,
+        "Parametros": {          
+          "Url": "localhost://api/productregistration",
+          "Segundos": 60
+        }
+      },
+      {
+        "Servico": "SupplierRegistration",        
+        "Habilitado": false,
+        "Parametros": {          
+          "Url": "localhost://api/supplierregistratoin",
+          "Segundos": 60
+        }
+      }
+    ]
+  }
